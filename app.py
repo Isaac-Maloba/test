@@ -16,10 +16,10 @@ app.config["UPLOAD_FOLDER"] = "static/images"
 # ── DB CONNECTION ──────────────────────────────────────────────
 def get_db():
     return pymysql.connect(
-        host="mysql-maloba.alwaysdata.net",
-        user="maloba",
-        password="modcom1234",
-        database="maloba_acoustiq",
+        host="",
+        user="",
+        password="",
+        database="",
         cursorclass=pymysql.cursors.DictCursor
     )
 
